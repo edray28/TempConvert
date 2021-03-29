@@ -1,0 +1,66 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  color: rgb(76, 209, 43);
+}
+
+body {
+  background-color: #021c1d;
+}
+
+button {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin-top: 200px;
+}
+.container-sm {
+  background-color: aliceblue;
+  border-color: #ee0c0c;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+  text-align: center;
+  width: 30%;
+}
+.form-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-check-input {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.form-check-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+.form-control {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.githubpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 62.5em;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.gitico {
+  width: 100px;
+}
