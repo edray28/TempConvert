@@ -18,6 +18,14 @@ button {
 .container {
   margin-top: 200px;
 }
+.container-sm:first-child {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  margin-top: 40px;
+  width: 20%;
+  border-color: black;
+  display: none;
+}
 .container-sm {
   background-color: aliceblue;
   border-color: #ee0c0c;
@@ -27,30 +35,39 @@ button {
   text-align: center;
   width: 30%;
 }
-.form-check {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .form-check-input {
-  width: 30px;
+  margin: auto;
   height: 30px;
-  margin-right: 10px;
+  width: 30px;
+}
+#flexRadioDefault1 {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+#flexRadioDefault2 {
+  margin-top: 50px;
+  margin-left: -34px;
 }
 
 .form-check-label {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
+  margin: auto;
 }
 .form-control {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   width: 80%;
-  text-align: center;
   margin: auto;
   margin-bottom: 10px;
 }
 
+.spinner-border {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 .githubpage {
   display: flex;
   justify-content: center;
